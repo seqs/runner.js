@@ -9,7 +9,7 @@ npm install runner.js --save
 
 ### Getting Started
 
-On the first pass, runner can mitigate the “[Pyramid of
+On the first pass, runner.js can mitigate the “[Pyramid of
 Doom](http://calculist.org/blog/2011/12/14/why-coroutines-wont-work-on-the-web/)”: the situation where code marches to the right faster
 than it marches forward.
 
@@ -30,7 +30,7 @@ than it marches forward.
 })()
 ```
 
-With runner, you can flatten the pyramid.
+With runner.js, you can flatten the pyramid.
 
 ```js
 var runner = require('runner.js')
@@ -69,7 +69,7 @@ var runner = require('runner.js')
 
 runner([
   function (next) {
-    next(new Error('An error from runner sequence'))
+    next(new Error('An error from runner.js sequence'))
   }
 ], this, function (e) {
   console.log(e)
