@@ -27,7 +27,7 @@ than it marches forward.
 With runner, you can flatten the pyramid.
 
 ```js
-var runner = require('runner')
+var runner = require('runner.js')
 
 runner([
   function (next) {
@@ -59,7 +59,7 @@ also you can define your own error handler.
 
 
 ```js
-var runner = require('runner')
+var runner = require('runner.js')
 
 runner([
   function (next) {
@@ -78,7 +78,7 @@ execute your iteratees in a given context, or are confused as to why a method
 of another library isn't working as an iteratee, study this example:
 
 ```js
-var runner = require('runner')
+var runner = require('runner.js')
 
 function Foo () {
   this.a = 1
