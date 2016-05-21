@@ -1,5 +1,11 @@
 A lightweight async tool in JavaScript inspired by Express middleware
 
+### Install
+
+```
+npm install runner.js --save
+```
+
 
 ### Getting Started
 
