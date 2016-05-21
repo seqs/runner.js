@@ -1,6 +1,6 @@
 {
   "name": "runner.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A lightweight async tool in JavaScript inspired by Express middleware",
   "main": "index.js",
   "homepage": "https://github.com/seqs/runner.js",
