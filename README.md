@@ -103,7 +103,7 @@ function Foo () {
       this.c = this.a + this.b
       console.log(this.c)
     }
-  ], this) // `this` is the second parameter
+  ], this) // `this` is the context parameter
 }
 
 new Foo()
